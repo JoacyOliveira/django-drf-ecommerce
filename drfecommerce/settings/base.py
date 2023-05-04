@@ -10,7 +10,6 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 DEBUG = True
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -20,9 +19,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #EXTERNAL PACKEGES
+    # EXTERNAL PACKEGES
     'rest_framework'
-    #INTERNAL APPS
+    # INTERNAL APPS
 ]
 
 MIDDLEWARE = [
