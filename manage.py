@@ -12,6 +12,7 @@ def main():
     else:
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drfecommerce.settings.production')
 
+
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
